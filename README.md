@@ -12,7 +12,7 @@ The repository contains the following elements:
 Contains some of the data (migration data has been excluded due to permissions) used for analysis that is:
 
 * Sequence metadata (downloaded from GISAID 11th December 2021)
-* Sequence data (B.1.1.222, B.1.1.519, B.1.1.7)
+* Sequence data
 * Reference sequence 
 * EPI_ISL_summary_table
 
