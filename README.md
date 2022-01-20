@@ -72,4 +72,4 @@ Run R script Code/prone_based_on_treemmer.R
 
 * Output of this is 519 sequences after pruning by treemmer
 
-re-run IQtree to get final ML-tree
+Re-run IQtree to get final ML-tree
