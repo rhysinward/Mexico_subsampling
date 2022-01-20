@@ -68,7 +68,7 @@ Run the Python Script Code/Treemmer_v0.3_mod.py
 
 python3 Code/Treemmer_v0.3_mod.py  -lm Data/treemmer_metadata_519.txt -lmc Data/metadata_proportions.txt  Data/Mex_B_1_1_519_12_07_2021.fasta.treefile -pp -X 4000
 
-Run R script Code/prone_based_on_treemmer.R
+Run R script Code/prune_treemmer.R
 
 * Output of this is 519 sequences after pruning by treemmer
 
