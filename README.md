@@ -9,7 +9,7 @@ The repository contains the following elements:
 
 1. Data
 
-Contains some of the data (migration data has been excluded due to permissions) used for analysis that is:
+Contains some of the data (migration data and sequence data has been excluded due to permissions) used for analysis that is:
 
 * Sequence metadata (downloaded from GISAID 11th December 2021)
 * Sequence data
@@ -30,9 +30,9 @@ Contains the collated and processed results of the analysis.
 
 # Running the code
 
-In this example we show how to run the process for B.1.1.519.
+In this example we show how to run the process for Delta.
 
-Run the R script Code/sampling.R 
+Run the R script Code/updtaed_delta_sampling.R 
 
 * The output of this is a migration-informed sequenced data
 
@@ -56,6 +56,8 @@ Run the R script Code/Quality_Control
 
 * Output of this is QC migration-informed sequence data.
 
+# If wanting to use phylodyanmic subsampling
+
 Create ML-tree using IQtree
 
 iqtree -s -m GTR+I+G -alrt 1000
@@ -69,7 +71,5 @@ Run the Python Script Code/Treemmer_v0.3_mod.py
 python3 Code/Treemmer_v0.3_mod.py  -lm Data/treemmer_metadata_519.txt -lmc Data/metadata_proportions.txt  Data/Mex_B_1_1_519_12_07_2021.fasta.treefile -pp -X 4000
 
 Run R script Code/prune_treemmer.R
-
-* Output of this is 519 sequences after pruning by treemmer
 
 Re-run IQtree to get final ML-tree
