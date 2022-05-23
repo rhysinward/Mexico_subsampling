@@ -5,7 +5,7 @@ closeAllConnections(); rm(list=ls())
 cat("\014"); graphics.off()
 
 #set WD
-setwd("~/rhys/Chile")
+setwd("~/rhys/Mexico")
 # Folder path for results
 folres = (path = "./Results/")
 # Main functions to run script
